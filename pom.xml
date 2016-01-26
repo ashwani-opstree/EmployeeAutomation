@@ -23,19 +23,23 @@
    <build>
       <plugins>
          <plugin>
-            <groupId>com.atlassian.maven.plugins</groupId>
-            <artifactId>maven-jgitflow-plugin</artifactId>
-            <version>1.0-alpha27</version>
+            <groupId>external.atlassian.jgitflow</groupId>
+            <artifactId>jgitflow-maven-plugin</artifactId>
+            <version>1.0-m4.3</version>
             <configuration>
+               <autoVersionSubmodules>true</autoVersionSubmodules>
+               <pullDevelop>true</pullDevelop>
+               <pullMaster>true</pullMaster>
+               <allowSnapshots>true</allowSnapshots>
                <pushReleases>true</pushReleases>
                <keepBranch>false</keepBranch>
                <noTag>false</noTag>
-               <tagMessage>BigParser release</tagMessage>
+               <tagMessage>EmployeeAutomation</tagMessage>
                <allowUntracked>true</allowUntracked>
                <allowSnapshots>true</allowSnapshots>
                <flowInitContext>
-                  <masterBranchName>test</masterBranchName>
-                  <versionTagPrefix>release_</versionTagPrefix>
+                  <masterBranchName>master</masterBranchName>
+                  <versionTagPrefix>development</versionTagPrefix>
                </flowInitContext>
             </configuration>
          </plugin>
