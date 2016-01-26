@@ -32,14 +32,14 @@
                <pullMaster>true</pullMaster>
                <allowSnapshots>true</allowSnapshots>
                <pushReleases>true</pushReleases>
-               <keepBranch>false</keepBranch>
+               <keepBranch>true</keepBranch>
                <noTag>false</noTag>
-               <tagMessage>EmployeeAutomation</tagMessage>
+               <tagMessage>EmployeeAutomation release</tagMessage>
                <allowUntracked>true</allowUntracked>
                <allowSnapshots>true</allowSnapshots>
                <flowInitContext>
                   <masterBranchName>master</masterBranchName>
-                  <versionTagPrefix>development</versionTagPrefix>
+                  <developBranchName>development</developBranchName>
                </flowInitContext>
             </configuration>
          </plugin>
