@@ -32,7 +32,7 @@
                <pullMaster>true</pullMaster>
                <allowSnapshots>true</allowSnapshots>
                <pushReleases>true</pushReleases>
-               <keepBranch>true</keepBranch>
+               <keepBranch>false</keepBranch>
                <noTag>false</noTag>
                <tagMessage>EmployeeAutomation release</tagMessage>
                <allowUntracked>true</allowUntracked>
