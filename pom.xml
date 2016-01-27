@@ -3,7 +3,7 @@
    <modelVersion>4.0.0</modelVersion>
    <groupId>EmployeeAutomation</groupId>
    <artifactId>EmployeeAutomation</artifactId>
-   <version>0.0.2</version>
+   <version>0.0.3</version>
    <packaging>jar</packaging>
    <name>EmployeeAutomation</name>
    <url>http://maven.apache.org</url>
@@ -25,7 +25,7 @@
          <plugin>
             <groupId>external.atlassian.jgitflow</groupId>
             <artifactId>jgitflow-maven-plugin</artifactId>
-            <version>1.0-m4.3</version>
+            <version>1.0-m5.1</version>
             <configuration>
                <autoVersionSubmodules>true</autoVersionSubmodules>
                <pullDevelop>true</pullDevelop>
